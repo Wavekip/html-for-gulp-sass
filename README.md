@@ -12,17 +12,17 @@
 
 
 目录说明：
-├── .gitignore                // git忽略文件
-├── gulpfile.js               // gulp配置文件
-├── src                       // 源码，html根目录
-│   ├── components            // bower插件存放处
-│   ├── css                   // 样式表存放处
-│   ├── images                // 图片存放处
-│   └── js                    // 脚本存放处
-└── dist                       // 编译后文件夹，html根目录
-    ├── css                   // 样式表存放处
-    ├── images                // 图片存放处
-    └── js                    // 脚本存放处
+├── .gitignore                // git忽略文件<br>
+├── gulpfile.js               // gulp配置文件<br>
+├── src                       // 源码，html根目录<br>
+│   ├── components            // bower插件存放处<br>
+│   ├── css                   // 样式表存放处<br>
+│   ├── images                // 图片存放处<br>
+│   └── js                    // 脚本存放处<br>
+└── dist                      // 编译后文件夹，html根目录<br>
+    ├── css                   // 样式表存放处<br>
+    ├── images                // 图片存放处<br>
+    └── js                    // 脚本存放处<br>
 
 注意事项：
 1. npm: 5.6.0 ， node: v8.11.1
