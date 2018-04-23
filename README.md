@@ -1,12 +1,11 @@
 # html-for-gulp-sass
 启动：
-1. 解压
-2. 进入./src/components目录，运行<br>
+1. 进入./src/components目录，运行<br>
 ```bower install```<br>
 注意：需要先安装bower
-3. 在根目录，运行<br>
+2. 在根目录，运行<br>
 ```npm i```<br>
-4. 安转完毕后，运行<br>
+3. 安转完毕后，运行<br>
 ```gulp```<br>
 即可
 
