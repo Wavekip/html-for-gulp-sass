@@ -11,7 +11,7 @@
 即可
 
 
-目录说明：
+目录说明：<br>
 ├── .gitignore                // git忽略文件<br>
 ├── gulpfile.js               // gulp配置文件<br>
 ├── src                       // 源码，html根目录<br>
