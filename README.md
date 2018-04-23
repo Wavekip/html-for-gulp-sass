@@ -2,7 +2,7 @@
 启动：
 1. 进入./src/components目录，运行<br>
 ```bower install```<br>
-注意：需要先安装bower
+注意：需要先安装bower ```npm i bower -g```
 2. 在根目录，运行<br>
 ```npm i```<br>
 3. 安转完毕后，运行<br>
@@ -25,4 +25,4 @@
 
 注意事项：
 1. ```npm: 5.6.0``` , ```node: v8.11.1```
-2. gulpfile.js中，debug = true时为开发模式，打包时会生成css的sourcemap，方便调试。当发布产品时，删除原有dist文件夹，改debug值为false，重新运行gulp即可打包最小体积的代码。
+2. gulpfile.js中，```debug = true```时为开发模式，打包时会生成css的sourcemap，方便调试。当发布产品时，删除原有dist文件夹，改debug值为```false```，重新运行gulp即可打包最小体积的代码。
