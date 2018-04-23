@@ -1,0 +1,24 @@
+{
+  "name": "html components",
+  "description": "html components",
+  "main": "",
+  "keywords": [
+    "components",
+    "plugins"
+  ],
+  "authors": [
+    "bear.huang"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+/*!
+ * Bootstrap v4.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "../components/bower_components/bootstrap/scss/functions";
+@import "variables"; //此处特殊，将配置信息放到我们本地scss中配置
+@import "../components/bower_components/bootstrap/scss/mixins";
+@import "../components/bower_components/bootstrap/scss/root";
+@import "../components/bower_components/bootstrap/scss/reboot";
+@import "../components/bower_components/bootstrap/scss/type";
+@import "../components/bower_components/bootstrap/scss/images";
+@import "../components/bower_components/bootstrap/scss/code";
+@import "../components/bower_components/bootstrap/scss/grid";
+@import "../components/bower_components/bootstrap/scss/tables";
+@import "../components/bower_components/bootstrap/scss/forms";
+@import "../components/bower_components/bootstrap/scss/buttons";
+@import "../components/bower_components/bootstrap/scss/transitions";
+// @import "../components/bower_components/bootstrap/scss/dropdown";
+@import "../components/bower_components/bootstrap/scss/button-group";
+@import "../components/bower_components/bootstrap/scss/input-group";
+// @import "../components/bower_components/bootstrap/scss/custom-forms";
+// @import "../components/bower_components/bootstrap/scss/nav";
+// @import "../components/bower_components/bootstrap/scss/navbar";
+// @import "../components/bower_components/bootstrap/scss/card";
+// @import "../components/bower_components/bootstrap/scss/breadcrumb";
+// @import "../components/bower_components/bootstrap/scss/pagination";
+// @import "../components/bower_components/bootstrap/scss/badge";
+// @import "../components/bower_components/bootstrap/scss/jumbotron";
+// @import "../components/bower_components/bootstrap/scss/alert";
+// @import "../components/bower_components/bootstrap/scss/progress";
+// @import "../components/bower_components/bootstrap/scss/media";
+// @import "../components/bower_components/bootstrap/scss/list-group";
+// @import "../components/bower_components/bootstrap/scss/close";
+@import "../components/bower_components/bootstrap/scss/modal";
+// @import "../components/bower_components/bootstrap/scss/tooltip";
+// @import "../components/bower_components/bootstrap/scss/popover";
+// @import "../components/bower_components/bootstrap/scss/carousel";
+@import "../components/bower_components/bootstrap/scss/utilities";
+@import "../components/bower_components/bootstrap/scss/print";
