@@ -9,7 +9,6 @@
 ```gulp```<br>
 即可
 
-
 目录说明：<br>
 ├── .gitignore                // git忽略文件<br>
 ├── gulpfile.js               // gulp配置文件<br>
@@ -26,3 +25,9 @@
 注意事项：
 1. ```npm: 5.6.0``` , ```node: v8.11.1```
 2. gulpfile.js中，```debug = true```时为开发模式，打包时会生成css的sourcemap，方便调试。当发布产品时，删除原有dist文件夹，改debug值为```false```，重新运行gulp即可打包最小体积的代码。
+3. 打包样式表时，只打包不以_开头的scss文件，打包成原文件名的css文件
+4. 打包脚本时，会将不以_开头的js文件打包到main.js当中
+
+功能：
+1. 自动打包，压缩、编译html、js、scss
+2. 热更新
