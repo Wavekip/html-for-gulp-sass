@@ -31,20 +31,24 @@ gulp.task('html', function () {
 // 编译scss
 gulp.task('scss', function (cb) {
     if(debug) {
-        gulp.src(['./src/css/*.scss', '!./src/css/**/_*.scss'])
+        return gulp.src(['./src/css/*.scss', '!./src/css/**/_*.scss'])
+        .pipe(changed('./dist/js', { hasChanged: changed.compareSha1Digest }))
         .pipe(sourcemaps.init())
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
         // .pipe(concat('main.css'))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./dist/css'))
+        .pipe(browserSync.reload({ stream: true }));
     } else {
-        gulp.src(['./src/css/*.scss', '!./src/css/**/_*.scss'])
+        return gulp.src(['./src/css/*.scss', '!./src/css/**/_*.scss'])
+        .pipe(changed('./dist/js', { hasChanged: changed.compareSha1Digest }))
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./dist/css'))
+        .pipe(browserSync.reload({ stream: true }));
     }
 
 });
